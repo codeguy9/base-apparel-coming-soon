@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+html {
+  max-width: 1440px;
+  margin: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 300;
+  margin: auto;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style-type: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.main .left-side h1 {
+  font-size: 5.5rem;
+  letter-spacing: 30px;
+  line-height: 1;
+}
+
+.main .left-side h1::first-line {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+.main .left-side p {
+  color: #ce9797;
+  line-height: 2;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 4rem;
+}
+
+.main form {
+  position: relative;
+}
+
+.main form input {
+  height: 3.6rem;
+  width: 560px;
+  border-radius: 40px;
+  border: 1px solid #ce9797;
+  padding-left: 1rem;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
+  color: #f96262;
+  font-size: 1.2rem;
+}
+
+.main form button {
+  height: 3.8rem;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  width: 100px;
+  position: absolute;
+  right: -30px;
+  cursor: pointer;
+}
+
+.main form button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 20px 25px #ddc9c9;
+          box-shadow: 0 20px 25px #ddc9c9;
+}
+/*# sourceMappingURL=style.css.map */
